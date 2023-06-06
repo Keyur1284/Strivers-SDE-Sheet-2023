@@ -32,7 +32,12 @@ pair<int,int> missingAndRepeating(vector<int> &arr, int n)
 
 
 
+// To get first set bit from right i.e. LSB we can do
+// int bit = (num & ~(num - 1));
+
 // Solved by XOR (Bit Manipulation)
+// Time Complexity :- O(n)
+// Space Complexity :- O(1)
 
 #include <bits/stdc++.h>
 
@@ -52,7 +57,7 @@ pair<int,int> missingAndRepeating(vector<int> &arr, int n)
 
 	for (bit = 0; bit < 32; bit++)
 	{
-		if ((1 << bit) & num)
+		if (bs[bit])
 			break;
 	}
 
