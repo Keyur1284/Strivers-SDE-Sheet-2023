@@ -1,6 +1,9 @@
 //Problem Link :- https://leetcode.com/problems/unique-paths/
 
 //Solved by Memoization Method
+// Time Complexity :- O(n * m)
+// Space Complexity :- O(n * m)
+
 class Solution {
 public:
     int func (int x, int y, vector <vector <int>> &dp)
@@ -28,7 +31,11 @@ public:
 };
 
 
+
 //Solved by Tabulation Method
+// Time Complexity :- O(n * m)
+// Space Complexity :- O(n * m)
+
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -62,7 +69,11 @@ public:
 };
 
 
+
 //Solved by Tabulation Method (Space Optimized)
+// Time Complexity :- O(n * m)
+// Space Complexity :- O(n)
+
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -101,6 +112,8 @@ public:
     
 
 //Solved by Combinatorics
+// Time Complexity :- O(min(n, m))
+// Space Complexity :- O(1)
 
 class Solution {
 public:
