@@ -35,6 +35,15 @@ pair<int,int> missingAndRepeating(vector<int> &arr, int n)
 // To get first set bit from right i.e. LSB we can do
 // int bit = (num & ~(num - 1));
 
+// To get the value of the least significant bit that is on (first from the right):
+// int value = (num & (-num));
+
+// To get first set bit from right i.e. LSB we can do
+// int bit = 1 + __builtin_ctz(num);		(__builtin_ctz(num) -> count the trailing zeros)
+
+// To get first set bit from left i.e. MSB we can do
+// int bit = 31 - __builtin_clz(num);		(__builtin_clz(num) -> count the leading zeros)
+
 // Solved by XOR (Bit Manipulation)
 // Time Complexity :- O(n)
 // Space Complexity :- O(1)
