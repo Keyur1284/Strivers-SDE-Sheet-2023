@@ -28,7 +28,7 @@ public:
         if (node->next) 
             node->next->prev = node;
         
-        node->child = nullptr;
+        node->child = NULL;
         return node;
     }
 
