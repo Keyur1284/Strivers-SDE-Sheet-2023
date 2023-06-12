@@ -119,3 +119,56 @@ class Solution
         return {jobs, profit};
     } 
 };
+
+
+
+/*
+struct Job 
+{ 
+    int id;	 // Job Id 
+    int dead; // Deadline of job 
+    int profit; // Profit if job is over before or on deadline 
+};
+*/
+
+class Solution 
+{
+    public:
+    //Function to find the maximum profit and the number of jobs done.
+    
+    static bool comp (Job &j1, Job &j2)
+    {
+        return j1.dead < j2.dead;
+    }
+    
+    vector<int> JobScheduling(Job arr[], int n) 
+    { 
+        sort (arr, arr + n, comp);
+        
+        priority_queue<int> pq;
+            
+        int jobs = 0, profit = 0;
+        
+        for (int i = n - 1; i >= 0; i--)
+        {
+            int slots;
+            
+            if (i == 0)
+                slots = arr[i].dead;
+                
+            else
+                slots = arr[i].dead - arr[i - 1].dead;
+                
+            pq.emplace(arr[i].profit);
+            
+            while(slots-- && !pq.empty())
+            {
+                profit += pq.top();
+                jobs++;
+                pq.pop();
+            }
+        }
+        
+        return {jobs, profit};
+    } 
+};
