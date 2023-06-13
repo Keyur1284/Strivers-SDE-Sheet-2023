@@ -26,8 +26,8 @@ public:
 
 
 // Solved by Optimized Approach
-
-
+// Time Complexity :- O(n^2)
+// Space Complexity :- O(n)
 
 class Solution {
 public:
