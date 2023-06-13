@@ -53,35 +53,46 @@ public:
 class Solution {
 public:
 
-    bool dfs(string &s, unordered_set<string>& words, int start, vector<bool>& vis)
+    bool solve (int start, vector<int> &dp, string &s, unordered_set<string> &words)
     {
-        if (start == s.size())
+        if (start == s.length())
             return true;
 
-        if (!vis[start])
-        {
-            for (int end = start; end < s.size(); end++)
-            {
-                if (words.find(s.substr(start, end - start + 1)) != words.end())
-                {
-                    if (dfs(s, words, end + 1, vis))
-                        return true;
-                }
-            }
+        if (dp[start] != -1)
+            return dp[start];
 
-            vis[start] = true;
+        string str = "";
+
+        for (int end = start; end < s.length(); end++)
+        {
+            str += s[end];
+
+            if (words.find(str) != words.end())
+                if (solve (end + 1, dp, s, words))
+                    return dp[start] = true;
         }
 
-        return false;
+        return dp[start] = false;
     }
 
     bool wordBreak(string s, vector<string>& wordDict) {
-
-        int n = s.size();
-        vector<bool> vis(n, false);
+        
+        int n = s.length();
         unordered_set<string> words(wordDict.begin(), wordDict.end());
 
-        return dfs(s, words, 0, vis);
+        string t = "";
+        vector<int> dp(n, -1);
+
+        for (int index = 0; index < n; index++)
+        {
+            t += s[index];
+
+            if (words.find(t) != words.end())
+                if (solve (index + 1, dp, s, words))
+                    return true;
+        }
+
+        return false;
     }
 };
 
