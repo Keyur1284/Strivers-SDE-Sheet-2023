@@ -75,7 +75,7 @@ public:
         if (n > m)
             return findMedianSortedArrays (nums2, nums1);
 
-        int low = 0, high = n;
+        int low = 0, high = n;      // We are doing Binary Search on smaller size vector
 
         while (low <= high)
         {
