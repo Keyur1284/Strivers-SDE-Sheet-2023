@@ -14,6 +14,8 @@ class Solution
         vector<int> left (n, -1), right (n, n), temp (n + 1, 0);
         stack<int> st;
         
+        // Finding next smallest element in left
+
         for (int i = 0; i < n; i++)
         {
             while (!st.empty() && arr[st.top()] >= arr[i])
@@ -27,7 +29,9 @@ class Solution
         
         while (!st.empty())
             st.pop();
-            
+
+        // Finding next smallest element in right
+
         for (int i = n - 1; i >= 0; i--)
         {
             while (!st.empty() && arr[st.top()] >= arr[i])
