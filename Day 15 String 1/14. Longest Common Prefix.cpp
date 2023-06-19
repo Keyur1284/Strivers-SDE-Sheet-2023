@@ -1,5 +1,30 @@
 // Problem Link :- https://leetcode.com/problems/longest-common-prefix/
 
+// Solved by sorting
+// Time Complexity :- O(nlogn)
+// Space Complexity :- O(1)
+
+class Solution {
+public:
+    string longestCommonPrefix(vector<string>& strs) {
+        
+        sort (strs.begin(), strs.end());
+        string longestPrefix = "";
+        string first = strs[0], last = strs.back();
+        int n = min(first.length(), last.length());
+
+        for (int i = 0; i < n; i++)
+        {
+            if (first[i] != last[i])
+                return longestPrefix;
+
+            longestPrefix += first[i];
+        }
+
+        return longestPrefix;
+    }
+};
+
 // Solved using Trie Data Structure
 // Time Complexity :- O(S)      S = no. of all characters in the array
 // Space Complexity :- O(S)
