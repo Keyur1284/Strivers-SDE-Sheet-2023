@@ -62,6 +62,40 @@ public:
 };
 
 
+
+// Solved by Tabulation Method (Space Optimized)
+
+class Solution{
+public:
+	
+	int maxSumIS(int arr[], int n)  
+	{  
+	    vector<int> dp (n + 1, 0);
+	    
+	    for (int index = n - 1; index >= 0; index--)
+	    {
+	        vector<int> temp (n + 1, 0);
+	        
+	        for (int prev = index - 1; prev >= -1; prev--)
+	        {
+	            int notTake = dp[prev + 1];
+	            int take = 0;
+	            
+	            if (prev == -1 || arr[index] > arr[prev])
+	                take = arr[index] + dp[index + 1];
+	                
+	            temp[prev + 1] = max(take, notTake);
+	        }
+	        
+	        dp = temp;
+	    }
+	    
+	    return dp[0];
+	}  
+};
+
+
+
 // Best Optimized Solution
 // Time Complexity :- O(n^2)
 // Space Complexity :- O(n)
