@@ -1,6 +1,8 @@
-//Problem Link :- https://leetcode.com/problems/longest-increasing-subsequence/
+// Problem Link :- https://leetcode.com/problems/longest-increasing-subsequence/
 
-//Solved by Memoization Method
+// Solved by Memoization Method
+// Time Complexity :- O(n^2)
+// Space Complexity :- O(n^2)
 
 class Solution {
 public:
@@ -34,7 +36,7 @@ public:
 };
 
 
-//Solved by Tabulation Method
+// Solved by Tabulation Method
 
 class Solution {
 public:
@@ -68,7 +70,7 @@ public:
 };
 
 
-//Solved by Tabulation Method (Less Space Optimized) (Using 2 rows)
+// Solved by Tabulation Method (Less Space Optimized) (Using 2 rows)
 
 class Solution {
 public:
@@ -106,7 +108,7 @@ public:
 };
 
 
-//Solved by Tabulation Method (Best Space Optimized) (Using 1 row)
+// Solved by Tabulation Method (Best Space Optimized) (Using 1 row)
 
 class Solution {
 public:
@@ -140,9 +142,9 @@ public:
 };
 
 
-//Another approach  (This is used if we want to print the longest increasing subsequence)
+// Another approach  (This is used if we want to print the longest increasing subsequence)
 
-//Solved by Tabulation Method (Best Space Optimized) (Using 1 row)
+// Solved by Tabulation Method (Best Space Optimized) (Using 1 row)
 
 class Solution {
 public:
@@ -169,9 +171,9 @@ public:
 };
 
 
-//Solved by using Binary Search (Fastest Solution)
-//We can use this method only if we want to get the length of the longest increasing subsequence
-//But we cannot use this when we want to print the longest increasing subsequence
+// Solved by using Binary Search (Fastest Solution)
+// We can use this method only if we want to get the length of the longest increasing subsequence
+// But we cannot use this when we want to print the longest increasing subsequence
 
 class Solution {
 public:
@@ -206,7 +208,7 @@ public:
 };
 
 
-//Code for printing the longest increasing subsequence
+// Code for printing the longest increasing subsequence
 
 class Solution {
 public:
@@ -258,7 +260,7 @@ public:
 };
 
 
-//Another approach
+// Another approach
 
 class Solution {
 public:
