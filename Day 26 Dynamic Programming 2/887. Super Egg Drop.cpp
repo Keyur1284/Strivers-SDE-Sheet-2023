@@ -1,5 +1,42 @@
 // Problem Link :- https://leetcode.com/problems/super-egg-drop/
 
+// Solved by Memoization (TLE)
+// Time Complexity :- O(eggs * floors * floors)
+// Space Complexity :- O(eggs * floors)
+
+class Solution {
+public:
+
+    int solve (int eggs, int floors, vector<vector<int>> &dp)
+    {
+        if (eggs == 1 || floors <= 1)
+            return floors;
+
+        if (dp[eggs][floors] != -1)
+            return dp[eggs][floors];
+
+        int ans = INT_MAX;
+
+        for (int k = 1; k <= floors; k++)
+        {
+            int dead = solve (eggs - 1, k - 1, dp);
+            int alive = solve (eggs, floors - k, dp);
+            int steps = 1 + max(dead, alive);
+            
+            ans = min(ans, steps);
+        }
+
+        return dp[eggs][floors] = ans;
+    }
+
+    int superEggDrop(int k, int n) {
+        
+        vector<vector<int>> dp (k + 1, vector<int> (n + 1, -1));
+
+        return solve (k, n, dp);
+    }
+};
+
 // Solved by Memoization + Binary Search
 // Time Complexity :- O(eggs * floors * log (floors))
 // Space Complexity :- O(eggs * floors)
