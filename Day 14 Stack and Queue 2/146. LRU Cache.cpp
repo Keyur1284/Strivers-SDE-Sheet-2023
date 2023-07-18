@@ -1,7 +1,7 @@
 // Problem Link :- https://leetcode.com/problems/lru-cache/
 
 // Solved using list and unordered_map
-// Time Complexity :- O(1)
+// Time Complexity :- O(n)
 // Space Complexity :- O(capacity)
 
 class LRUCache {
