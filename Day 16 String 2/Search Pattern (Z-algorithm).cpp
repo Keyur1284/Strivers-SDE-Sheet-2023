@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/8dcd25918295847b4ced54055eae35a8501181c1/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/search-pattern-z-algorithm--141631/1
 
 // Solved by KMP Algorithm
 // Time Complexity :- O(n + m)
