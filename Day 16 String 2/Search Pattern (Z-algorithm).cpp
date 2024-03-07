@@ -109,22 +109,3 @@ public:
 	}
 	
 };
-
-
-
-/*
-	// Conversion of Z to LPS
-
-	for (int i = 1; i < n; i++)
-	{
-		lps[i + z[i] - 1] = max(lps[i + z[i] - 1], z[i]);
-	}
-
-	// Conversion of LPS to Z
-
-	for (int i = 1; i < n; i++)
-	{
-		z[i - lps[i] + 1] = max(z[i - lps[i] + 1], lps[i]);
-	}
-
-*/
