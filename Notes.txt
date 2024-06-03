@@ -1,0 +1,13 @@
+# Day 1 Array 1
+
+1.  Problem Link :- https://leetcode.com/problems/set-matrix-zeroes/
+    Notes :- https://takeuforward.org/data-structure/set-matrix-zero/
+
+2.  Problem Link :- https://leetcode.com/problems/pascals-triangle/
+    Notes :- https://takeuforward.org/data-structure/program-to-generate-pascals-triangle/
+
+3.  Problem Link :- https://leetcode.com/problems/next-permutation/
+    Notes :- https://takeuforward.org/data-structure/next_permutation-find-next-lexicographically-greater-permutation/
+
+4.  Problem Link :- https://leetcode.com/problems/maximum-subarray/
+    Notes :- https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/
