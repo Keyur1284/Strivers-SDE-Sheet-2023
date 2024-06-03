@@ -1,14 +1,13 @@
 // Problem Link :- https://leetcode.com/problems/maximum-subarray/
 
-// Time Complexity :- O(n)
-// Space Complexity :- O(n)
-
 // Solved by Memoization Method
+// Time Complexity :- O(n)
+// Space Complexity :- O(2 * n)
 
 class Solution {
 public:
 
-    int func (int index, bool flag, vector<vector<int>> &dp, vector<int>& nums)
+    int func(int index, bool flag, vector<vector<int>> &dp, vector<int>& nums)
     {
         if (index == -1)
             return flag ? 0 : -1e6;
@@ -20,7 +19,7 @@ public:
             return dp[index][flag] = max(0, nums[index] + func(index - 1, true, dp, nums));
 
         int notPick = 0 + func(index - 1, false, dp, nums);
-        int pick = nums[index] + func (index - 1, true, dp, nums);
+        int pick = nums[index] + func(index - 1, true, dp, nums);
 
         return dp[index][flag] = max(pick, notPick);
     } 
@@ -28,24 +27,24 @@ public:
     int maxSubArray(vector<int>& nums) {
         
         int n = nums.size();
-        vector<vector<int>> dp (n, vector<int> (2, -1));
+        vector<vector<int>> dp(n, vector<int>(2, -1));
 
         return func(n - 1, false, dp, nums);
     }
 };
 
 
-// Time Complexity :- O(n)
-// Space Complexity :- O(n)
 
 // Solved by Tabulation Method
+// Time Complexity :- O(n)
+// Space Complexity :- O(2 * n)
 
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
         
         int n = nums.size();
-        vector<vector<int>> dp (n, vector<int> (2, 0));
+        vector<vector<int>> dp(n, vector<int>(2, 0));
 
         dp[0][0] = nums[0], dp[0][1] = nums[0];
 
@@ -59,6 +58,11 @@ public:
     }
 };
 
+
+
+// Solved by Tabulation Method (Space Optimized)
+// Time Complexity :- O(n)
+// Space Complexity :- O(n)
 
 class Solution {
 public:
@@ -80,10 +84,11 @@ public:
     }
 };
 
-// Time Complexity :- O(n)
-// Space Complexity :- O(n)
+
 
 // Solved by Prefix Sum Method
+// Time Complexity :- O(n)
+// Space Complexity :- O(n)
 
 class Solution {
 public:
@@ -99,10 +104,11 @@ public:
     }
 };
 
-// Time Complexity :- O(n)
-// Space Complexity :- O(1)
+
 
 // Solved by Kadane's Algorithm
+// Time Complexity :- O(n)
+// Space Complexity :- O(1)
 
 class Solution {
 public:
@@ -123,10 +129,10 @@ public:
 };
 
 
-// Time Complexity :- O(n)
-// Space Complexity :- O(1)
 
 // Printing the maximum subarray
+// Time Complexity :- O(n)
+// Space Complexity :- O(1)
 
 class Solution {
 public:

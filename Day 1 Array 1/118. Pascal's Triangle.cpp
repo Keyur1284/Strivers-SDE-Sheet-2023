@@ -1,5 +1,55 @@
 // Problem Link :- https://leetcode.com/problems/pascals-triangle/
 
+// Solved using Combinatorics
+// Time Complexity :- O(n^3)
+// Space Complexity :- O(n^2)
+
+class Solution {
+public:
+
+    int nCr (int n, int r)
+    {
+        long long ans = 1;
+
+        for (int i = 1; i <= r; i++)
+        {
+            ans *= (n - i + 1);
+            ans /= i;
+        }
+
+        return ans;
+    }
+
+    vector<int> generateRow (int n)
+    {
+        vector<int> row;
+
+        for (int c = 1; c <= n; c++)
+        {
+            int ans = nCr(n - 1, c - 1);
+            row.emplace_back(ans);
+        }
+
+        return row;
+    }
+
+    vector<vector<int>> generate(int numRows) {
+
+        vector<vector<int>> ans;
+
+        for (int i = 1; i <= numRows; i++)
+        {
+            vector<int> row = generateRow(i);
+            ans.emplace_back(row);
+        }
+
+        return ans;
+    }
+};
+
+
+
+// Solved using Dynamic Programming
 // Time Complexity :- O(n^2)
 // Space Complexity :- O(n^2)
 
@@ -27,6 +77,11 @@ public:
     }
 };
 
+
+
+// Solved using Math
+// Time Complexity :- O(n^2)
+// Space Complexity :- O(n^2)
 
 class Solution {
 public:

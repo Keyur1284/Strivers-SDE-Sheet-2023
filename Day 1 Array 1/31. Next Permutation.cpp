@@ -1,4 +1,6 @@
 // Problem Link :- https://leetcode.com/problems/next-permutation/
+
+// Solved using next permutation logic
 // Time Complexity :- O(n)
 // Space Complexity :- O(1)
 
@@ -38,7 +40,10 @@ public:
 };
 
 
+
 // Solved using inbuilt next_permutation function
+// Time Complexity :- O(n)
+// Space Complexity :- O(1)
 
 class Solution {
 public:

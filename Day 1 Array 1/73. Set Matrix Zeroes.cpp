@@ -1,6 +1,7 @@
 // Problem Link :- https://leetcode.com/problems/set-matrix-zeroes/
 
-// Time Complexity :- O(m*n)
+// Solved using row and column vectors
+// Time Complexity :- O(m * n)
 // Space Complexity :- O(m) + O(n)
 
 class Solution {
@@ -38,7 +39,9 @@ public:
 };
 
 
-// Time Complexity :- O(m*n)
+
+// Solved without using extra space
+// Time Complexity :- O(m * n)
 // Space Complexity :- O(1)
 
 class Solution {
@@ -86,6 +89,7 @@ public:
         }   
     }
 };
+
 
 
 class Solution {
