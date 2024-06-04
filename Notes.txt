@@ -11,3 +11,31 @@
 
 4.  Problem Link :- https://leetcode.com/problems/maximum-subarray/
     Notes :- https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/
+
+5.  Problem Link :- https://leetcode.com/problems/sort-colors/
+    Notes :- https://takeuforward.org/data-structure/sort-an-array-of-0s-1s-and-2s/
+
+6.  Problem Link :- https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+    Notes :- https://takeuforward.org/data-structure/stock-buy-and-sell/
+
+
+# Day 2 Array 2
+
+7.  Problem Link :- https://leetcode.com/problems/rotate-image/
+    Notes :- https://takeuforward.org/data-structure/rotate-image-by-90-degree/
+
+8.  Problem Link :- https://leetcode.com/problems/merge-intervals/
+    Notes :- https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/
+
+9.  Problem Link :- https://leetcode.com/problems/merge-sorted-array/
+    Notes :- https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space/
+
+10. Problem Link :- https://leetcode.com/problems/find-the-duplicate-number/
+    Notes :- https://takeuforward.org/data-structure/find-the-duplicate-in-an-array-of-n1-integers/
+
+11. Problem Link :- https://www.codingninjas.com/codestudio/problems/873366
+    Problem Link :- https://www.interviewbit.com/problems/repeat-and-missing-number-array/
+    Notes :- https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers/
+
+12. Problem Link :- https://www.codingninjas.com/codestudio/problems/count-inversions_615
+    Notes :- https://takeuforward.org/data-structure/count-inversions-in-an-array/
