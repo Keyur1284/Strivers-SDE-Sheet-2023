@@ -1,5 +1,6 @@
 // Problem Link :- https://leetcode.com/problems/merge-intervals/
 
+// Solved by Sorting
 // Time Complexity :- O(nlogn)
 // Space Complexity :- O(n)
 
@@ -32,6 +33,7 @@ public:
 };
 
 
+
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -45,9 +47,7 @@ public:
                 merged.emplace_back(it);
 
             else
-            {
                 merged.back()[1] = max(merged.back()[1], it[1]);
-            }
         }
         
         return merged;

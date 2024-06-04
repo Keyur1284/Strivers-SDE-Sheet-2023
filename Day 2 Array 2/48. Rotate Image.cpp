@@ -1,9 +1,11 @@
 // Problem Link :- https://leetcode.com/problems/rotate-image/
 
+// Solved using extra space
 // Time Complexity :- O(n^2)
 // Space Complexity :- O(n^2)
 
-// Clockwise Rotation
+// Clockwise Rotation by 90 degree
+
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -25,6 +27,8 @@ public:
 };
 
 
+
+// Solved without using extra space
 // Time Complexity :- O(n^2)
 // Space Complexity :- O(1)
 
@@ -49,7 +53,7 @@ public:
 
 
 
-// Anti-Clockwise Rotation
+// Anti-Clockwise Rotation by 90 degree
 
 class Solution {
 public:

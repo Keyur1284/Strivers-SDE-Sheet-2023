@@ -1,5 +1,6 @@
 // Problem Link :- https://leetcode.com/problems/sort-colors/
 
+// Solved using Counting Sort
 // Time Complexity :- O(n)
 // Space Complexity :- O(1)
 
@@ -25,7 +26,12 @@ public:
 };
 
 
-// Dutch National Flag Algorithm
+
+// Solved using Dutch National Flag's Algorithm
+// arr[0 ... low - 1] = 0
+// arr[low ... mid - 1] = 1
+// arr[mid ... high] = unsorted
+// arr[high + 1 ... n - 1] = 2
 
 // Time Complexity :- O(n)
 // Space Complexity :- O(1)

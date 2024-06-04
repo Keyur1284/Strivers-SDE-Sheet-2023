@@ -1,8 +1,8 @@
 // Problem Link :- https://leetcode.com/problems/find-the-duplicate-number/
 
 // Solved by modifying array nums
-// Time Complexity : O(nlogn)
-// Space Complexity : O(1)
+// Time Complexity :- O(nlogn)
+// Space Complexity :- O(logn)
 
 class Solution {
 public:
@@ -22,6 +22,33 @@ public:
 
 
 
+// Solved by frequency vector
+// Time Complexity :- O(n)
+// Space Complexity :- O(n)
+
+class Solution {
+public:
+    int findDuplicate(vector<int>& nums) {
+        
+        int n = nums.size();
+        vector<int> freq(n + 1, 0);
+
+        for (auto &it : nums)
+            freq[it]++;
+
+        for (int num = 1; num <= n; num++)
+        {
+            if (freq[num] > 1)
+                return num;
+        }
+
+        return 0;
+    }
+};
+
+
+
+// Solved by modifying array nums
 // Time Complexity :- O(n)
 // Space Complexity :- O(1)
 
@@ -30,8 +57,9 @@ public:
     int findDuplicate(vector<int>& nums) {
         
         int dup;
+        int n = nums.size();
 
-        for (int i = 0; i < nums.size(); i++)
+        for (int i = 0; i < n; i++)
         {
             int curr = abs(nums[i]);
 
@@ -52,9 +80,10 @@ public:
 };
 
 
-// Solved by Binary Search
-// Time Complexity : O(nlogn)
-// Space Complexity : O(1)
+
+// Solved by Binary Search on answer
+// Time Complexity :- O(nlogn)
+// Space Complexity :- O(1)
 
 class Solution {
 public:
@@ -97,17 +126,17 @@ public:
 
 
 // Solved by Bit Manipulation
-// Time Complexity : O(nlogn)
-// Space Complexity : O(1)
+// Time Complexity :- O(nlogn)
+// Space Complexity :- O(1)
 
 class Solution {
 public:
 
-    int countMaxBits (int num)
+    int countMaxBits(int num)
     {
         int bit = 0;
 
-        while (num)
+        while(num)
         {
             num /= 2;
             bit++;
@@ -118,17 +147,16 @@ public:
 
     int findDuplicate(vector<int>& nums) {
         
-        int dup = 0;
-        int n = nums.size() - 1;
+        int dup = 0, n = nums.size();
         int maxi = *max_element(nums.begin(), nums.end());
-        int maxBits = countMaxBits (maxi);
+        int maxBits = countMaxBits(maxi);
 
         for (int bit = 0; bit < maxBits; bit++)
         {
             int mask = (1 << bit);
             int numCount = 0, baseCount = 0;
 
-            for (int i = 0; i <= n; i++)
+            for (int i = 0; i < n; i++)
             {
                 if (i & mask)
                     baseCount++;
@@ -146,9 +174,10 @@ public:
 };
 
 
+
 // Solved by using Floyd's Tortoise and Hare (Cycle Detection) Algorithm    (Best Solution)
-// Time Complexity : O(n)
-// Space Complexity : O(1)
+// Time Complexity :- O(n)
+// Space Complexity :- O(1)
 
 class Solution {
 public:

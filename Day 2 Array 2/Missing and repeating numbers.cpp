@@ -1,4 +1,5 @@
 // Problem Link :- https://www.codingninjas.com/codestudio/problems/873366
+// Problem Link :- https://www.interviewbit.com/problems/repeat-and-missing-number-array/
 
 // Solved by Math
 // Time Complexity: O(n)
