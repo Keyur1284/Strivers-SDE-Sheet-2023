@@ -39,3 +39,25 @@
 
 12. Problem Link :- https://www.codingninjas.com/codestudio/problems/count-inversions_615
     Notes :- https://takeuforward.org/data-structure/count-inversions-in-an-array/
+
+
+# Day 3 Array 3
+
+13. Problem Link :- https://leetcode.com/problems/search-a-2d-matrix/
+    Problem Link :- https://leetcode.com/problems/search-a-2d-matrix-ii/
+    Notes :- https://takeuforward.org/data-structure/search-in-a-sorted-2d-matrix/
+
+14. Problem Link :- https://leetcode.com/problems/powx-n/
+    Notes :- https://takeuforward.org/data-structure/implement-powxn-x-raised-to-the-power-n/
+
+15. Problem Link :- https://leetcode.com/problems/majority-element/
+    Notes :- https://takeuforward.org/data-structure/find-the-majority-element-that-occurs-more-than-n-2-times/
+
+16. Problem Link :- https://leetcode.com/problems/majority-element-ii/
+    Notes :- https://takeuforward.org/data-structure/majority-elementsn-3-times-find-the-elements-that-appears-more-than-n-3-times-in-the-array/
+
+17. Problem Link :- https://leetcode.com/problems/unique-paths/
+    Notes :- https://takeuforward.org/data-structure/grid-unique-paths-count-paths-from-left-top-to-the-right-bottom-of-a-matrix/
+
+18. Problem Link :- https://leetcode.com/problems/reverse-pairs/
+    Notes :- https://takeuforward.org/data-structure/count-reverse-pairs/
