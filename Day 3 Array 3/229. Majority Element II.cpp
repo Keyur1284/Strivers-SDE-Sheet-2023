@@ -1,9 +1,8 @@
 // Problem Link :- https://leetcode.com/problems/majority-element-ii/
 
+// Solved by using unordered_map
 // Time Complexity :- O(n)
 // Space Complexity :- O(n)
-
-// Solved by using unordered_map
 
 class Solution {
 public:
@@ -30,8 +29,8 @@ public:
 };
 
 
-// Solved by using Boyer Moore's Voting Algorithm
 
+// Solved by using Boyer Moore's Voting Algorithm
 // Time Complexity :- O(n)
 // Space Complexity :- O(1)
 

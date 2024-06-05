@@ -1,13 +1,14 @@
 // Problem Link :- https://leetcode.com/problems/search-a-2d-matrix/
 
 // Solved by Linear Search
-// Time Complexity :- O(n + m) 
+// Time Complexity :- O(n + m)
 // Space Complexity :- O(1)
 
 class Solution {
 public:
-    bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        
+    
+    bool searchMatrix(vector<vector<int>> &matrix, int target)
+    {
         int m = matrix.size(), n = matrix[0].size();
 
         for (int i = 0; i < m; i++)
@@ -26,16 +27,59 @@ public:
     }
 };
 
-
-
 // Solved by Binary Search
-// Time Complexity :- O(log(n * m)) 
+// Time Complexity :- O(m + log(n))
 // Space Complexity :- O(1)
 
 class Solution {
 public:
-    bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        
+
+    bool binarySearch(vector<int> &row, int target)
+    {
+        int low = 0, high = row.size() - 1, mid;
+
+        while (low <= high)
+        {
+            mid = (low + high) >> 1;
+
+            if (row[mid] == target)
+                return true;
+
+            if (row[mid] < target)
+                low = mid + 1;
+
+            else
+                high = mid - 1;
+        }
+
+        return false;
+    }
+
+    bool searchMatrix(vector<vector<int>> &matrix, int target)
+    {
+        int m = matrix.size(), n = matrix[0].size();
+
+        for (int i = 0; i < m; i++)
+        {
+            if (matrix[i][0] <= target && matrix[i][n - 1] >= target)
+                return binarySearch(matrix[i], target);
+        }
+
+        return false;
+    }
+};
+
+
+
+// Solved by Binary Search
+// Time Complexity :- O(log(n * m))
+// Space Complexity :- O(1)
+
+class Solution {
+public:
+    
+    bool searchMatrix(vector<vector<int>> &matrix, int target)
+    {
         int m = matrix.size(), n = matrix[0].size();
         int low = 0, high = m * n - 1, mid;
 
@@ -43,10 +87,12 @@ public:
         {
             mid = (low + high) >> 1;
 
-            if (matrix[mid/n][mid % n] == target)
+            int row = mid / n, col = mid % n;
+            
+            if (matrix[row][col] == target)
                 return true;
 
-            if (matrix[mid/n][mid % n] < target)
+            if (matrix[row][col] < target)
                 low = mid + 1;
 
             else
@@ -56,5 +102,3 @@ public:
         return false;
     }
 };
-
-

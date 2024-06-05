@@ -1,7 +1,6 @@
 // Problem Link :- https://leetcode.com/problems/majority-element/
 
 // Solved by using unordered_map
-
 // Time Complexity :- O(n)
 // Space Complexity :- O(n)
 
@@ -25,10 +24,11 @@ public:
     }
 };
 
-// Solved by sorting the array
 
+
+// Solved by sorting the array
 // Time Complexity :- O(nlogn)
-// Space Complexity :- O(1)
+// Space Complexity :- O(logn)
 
 class Solution {
 public:
@@ -40,9 +40,10 @@ public:
     }
 };
 
-// Solved by using bit manipulation
 
-// Time Complexity :- O(nlogC); C is the max absolute value in nums vector
+
+// Solved by using bit manipulation
+// Time Complexity :- O(n * 32)
 // Space Complexity :- O(1)
 
 class Solution {
@@ -52,27 +53,28 @@ public:
         int n = nums.size();
         int majority_element = 0;
 
-        for (int i = 0; i < 32; i++)
+        for (int bit = 0; bit < 32; bit++)
         {
-            int bit = 1 << i;
+            int mask = (1 << bit);
             int count = 0;
             
             for (auto &it : nums)
             {
-                if (bit & it)
+                if (mask & it)
                     count++;
             }
 
             if (count > n/2)
-                majority_element |= bit;
+                majority_element |= mask;
         }
 
         return majority_element;
     }
 };
 
-// Solved by using Boyer Moore's Voting Algorithm
 
+
+// Solved by using Boyer Moore's Voting Algorithm
 // Time Complexity :- O(n)
 // Space Complexity :- O(1)
 
@@ -85,10 +87,17 @@ public:
 
         for (auto &it : nums)
         {
-            if (count == 0)
+            if (majority_element == it)
+                count++;
+            
+            else if (count == 0)
+            {
                 majority_element = it;
-
-            count += (it == majority_element) ? 1 : -1;
+                count = 1;
+            }
+            
+            else
+                count--;
         }
 
         // We're directly returning the majority element as it is guaranteed that majority element always exists.

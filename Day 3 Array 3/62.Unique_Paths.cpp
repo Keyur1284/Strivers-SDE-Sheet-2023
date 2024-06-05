@@ -1,6 +1,6 @@
-//Problem Link :- https://leetcode.com/problems/unique-paths/
+// Problem Link :- https://leetcode.com/problems/unique-paths/
 
-//Solved by Memoization Method
+// Solved by Memoization Method
 // Time Complexity :- O(n * m)
 // Space Complexity :- O(n * m)
 
@@ -25,7 +25,7 @@ public:
     
     int uniquePaths(int m, int n) {
         
-        vector <vector<int>> dp (m, vector <int> (n, -1));
+        vector<vector<int>> dp(m, vector<int> (n, -1));
         return func (m - 1, n - 1, dp);
     }
 };
@@ -40,7 +40,7 @@ class Solution {
 public:
     int uniquePaths(int m, int n) {
         
-        vector <vector<int>> dp (m, vector <int> (n, 0));
+        vector<vector<int>> dp(m, vector<int> (n, 0));
         
         for (int i = 0; i < m; i++)
         {
@@ -55,16 +55,16 @@ public:
                 int up = 0, left = 0;
                 
                 if (i > 0)
-                    up = dp[i-1][j];
+                    up = dp[i - 1][j];
                 
                 if (j > 0)
-                    left = dp[i][j-1];
+                    left = dp[i][j - 1];
                 
                 dp[i][j] = up + left;
             }
         }
         
-        return dp[m-1][n-1];
+        return dp[m - 1][n - 1];
     }
 };
 
@@ -78,11 +78,11 @@ class Solution {
 public:
     int uniquePaths(int m, int n) {
         
-        vector<int> dp (n, 0);
+        vector<int> dp(n, 0);
         
         for (int i = 0; i < m; i++)
         {
-            vector<int> temp (n, 0);
+            vector<int> temp(n, 0);
             
             for (int j = 0; j < n; j++)
             {
@@ -98,7 +98,7 @@ public:
                     up = dp[j];
                 
                 if (j > 0)
-                    left = temp[j-1];
+                    left = temp[j - 1];
                 
                 temp[j] = up + left;
             }
@@ -106,10 +106,11 @@ public:
             dp = temp;
         }
         
-        return dp[n-1];
+        return dp[n - 1];
     }
 };
     
+
 
 //Solved by Combinatorics
 // Time Complexity :- O(min(n, m))
@@ -122,6 +123,23 @@ public:
         long long ans = 1;
 
         for (int i = m + n - 2, j = 1; i >= max(m, n); i--, j++)
+        {
+            ans = (ans * i)/j;
+        }
+
+        return ans;
+    }
+};
+
+
+
+class Solution {
+public:
+    int uniquePaths(int m, int n) {
+        
+        long long ans = 1;
+
+        for (int i = m + n - 2, j = 1; j <= min(n - 1, m - 1); i--, j++)
         {
             ans = (ans * i)/j;
         }
