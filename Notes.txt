@@ -61,3 +61,27 @@
 
 18. Problem Link :- https://leetcode.com/problems/reverse-pairs/
     Notes :- https://takeuforward.org/data-structure/count-reverse-pairs/
+
+
+# Day 4 Array 4
+
+19. Problem Link :- https://leetcode.com/problems/two-sum/
+    Problem Link :- https://leetcode.com/problems/3sum/
+    Notes :- https://takeuforward.org/data-structure/two-sum-check-if-a-pair-with-given-sum-exists-in-array/
+
+20. Problem Link :- https://leetcode.com/problems/4sum/
+    Notes :- https://takeuforward.org/data-structure/4-sum-find-quads-that-add-up-to-a-target-value/
+
+21. Problem Link :- https://leetcode.com/problems/longest-consecutive-sequence/
+    Notes :- https://takeuforward.org/data-structure/longest-consecutive-sequence-in-an-array/
+
+22. Problem Link :- https://www.codingninjas.com/codestudio/problems/longest-subarray-with-sum-k_5713505    (Positive and Negative Numbers)
+    Problem Link :- https://www.codingninjas.com/codestudio/problems/longest-subarray-with-sum-k_6682399    (Only Positive Numbers)
+    Notes :- https://takeuforward.org/data-structure/length-of-the-longest-subarray-with-zero-sum/
+
+23. Problem Link :- https://www.codingninjas.com/codestudio/problems/1115652
+    Problem Link :- https://leetcode.com/problems/subarray-sum-equals-k/
+    Notes :- https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k/
+
+24. Problem Link :- https://leetcode.com/problems/longest-substring-without-repeating-characters/
+    Notes :- https://takeuforward.org/data-structure/length-of-longest-substring-without-any-repeating-character/
