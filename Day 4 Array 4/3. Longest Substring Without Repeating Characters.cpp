@@ -13,24 +13,13 @@ public:
 
         while (right < len)
         {
-            if (st.find(s[right]) != st.end())
+            while (left <= right && st.count(s[right]))
             {
-                while (left <= right)
-                {
-                    if (s[left] == s[right])
-                    {
-                        left++;
-                        break;
-                    }
-
-                    st.erase(s[left]);
-                    left++;
-                }
+                st.erase(s[left]);
+                left++;
             }
-
-            else
-                st.emplace(s[right]);
-
+            
+            st.emplace(s[right]);
             maxi = max(maxi, right - left + 1);
             right++;
         }

@@ -6,20 +6,22 @@
 #include<bits/stdc++.h>
 int longestSubarrayWithSumK(vector<int> a, long long k) {
     
-    long long n = a.size(), i = 0, j = 0, maxi = 0, sum = 0;
+    int n = a.size(), maxLen = 0;
+    long long sum = 0;
 
-    while (j < n)
+    for (int left = 0, right = 0; right < n; right++)
     {
-        sum += a[j];
+        sum += a[right];
 
-        while (i <= j && sum > k)
-            sum -= a[i++];
+        while (sum > k)
+            sum -= a[left++];
 
         if (sum == k)
-            maxi = max(maxi, j - i + 1);
-        
-        j++;
+        {
+            int len = right - left + 1;
+            maxLen = max(len, maxLen);
+        }
     }
 
-    return maxi;
+    return maxLen;
 }

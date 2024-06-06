@@ -2,7 +2,7 @@
 
 // Solved by sorting
 // Time Complexity :- O(nlogn)
-// Space Complexity :- O(1)
+// Space Complexity :- O(logn)
 
 class Solution {
 public:
@@ -26,6 +26,7 @@ public:
         return min(longest, n);
     }
 };
+
 
 
 class Solution {
@@ -57,6 +58,7 @@ public:
         return maxStreak;
     }
 };
+
 
 
 // Solved by using unordered_set
@@ -97,6 +99,7 @@ public:
         return longest;
     }
 };
+
 
 
 // Solved by Union Find
@@ -212,7 +215,7 @@ public:
         for (int i = 0; i < n; i++)
         {
             if (dsu.findPar(i) == i)
-                maxStreak = max (maxStreak, dsu.getSize(i));
+                maxStreak = max(maxStreak, dsu.getSize(i));
         }
 
         return maxStreak;

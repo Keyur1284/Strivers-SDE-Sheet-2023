@@ -1,6 +1,6 @@
 // Problem Link :- https://www.codingninjas.com/codestudio/problems/longest-subarray-with-sum-k_5713505
 
-// Solved by map
+// Solved by unordered_map
 // Time Complexity :- O(n)
 // Space Complexity :- O(n)
 
