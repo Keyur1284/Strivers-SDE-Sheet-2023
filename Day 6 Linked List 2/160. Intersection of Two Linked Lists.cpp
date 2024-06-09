@@ -48,14 +48,6 @@ public:
 // Time Complexity :- O(n + m)
 // Space Complexity :- O(n)
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -81,18 +73,11 @@ public:
 };
 
 
+
 // Solved using two pointers
-// Time Complexity :- O(n + m)
+// Time Complexity :- O(n * m)
 // Space Complexity :- O(1)
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -111,14 +96,10 @@ public:
 
 
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
+// Solved using two pointers
+// Time Complexity :- O(n * m)
+// Space Complexity :- O(1)
+
 class Solution {
 public:
 
