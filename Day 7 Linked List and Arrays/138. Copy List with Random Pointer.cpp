@@ -43,25 +43,10 @@ public:
 };
 
 
+
 // Solved by using dummy node
 // Time Complexity :- O(n)
 // Space Complexity :- O(1)
-
-/*
-// Definition for a Node.
-class Node {
-public:
-    int val;
-    Node* next;
-    Node* random;
-    
-    Node(int _val) {
-        val = _val;
-        next = NULL;
-        random = NULL;
-    }
-};
-*/
 
 class Solution {
 public:
@@ -95,8 +80,10 @@ public:
         while (prev)
         {
             front = prev->next->next;
+            
             temp->next = prev->next;
             temp = temp->next;
+            
             prev->next = front;
             prev = front;
         }

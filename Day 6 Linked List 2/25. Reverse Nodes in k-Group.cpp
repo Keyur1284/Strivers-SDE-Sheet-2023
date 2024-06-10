@@ -55,6 +55,69 @@ public:
 class Solution {
 public:
 
+    ListNode* getKthNode(ListNode *curr, int k)
+    {
+        ListNode* temp = curr;
+
+        while (--k && temp)
+            temp = temp->next;
+
+        return temp;
+    }
+
+    void reverseKNodes(ListNode* curr)
+    {
+        ListNode* temp = curr, *prev = NULL;
+
+        while(temp)
+        {
+            ListNode* nextNode = temp->next;
+            temp->next = prev;
+            prev = temp;
+            temp = nextNode;
+        }
+    }
+
+    ListNode* reverseKGroup(ListNode* head, int k) {
+        
+        ListNode* curr = head, *prevLast = NULL;
+        
+        while (curr)
+        {
+            ListNode* kthNode = getKthNode(curr, k);
+
+            if (!kthNode)
+            {
+                if (prevLast)
+                    prevLast->next = curr;
+
+                break;
+            }
+
+            ListNode* nextNode = kthNode->next;
+            kthNode->next = NULL;
+
+            reverseKNodes(curr);
+
+            if (curr == head)
+                head = kthNode;
+
+            else
+                prevLast->next = kthNode;
+                
+            prevLast = curr;
+            curr = nextNode;
+        }
+
+        return head;
+    }
+};
+
+
+
+class Solution {
+public:
+
     int countNodes (ListNode* node)
     {
         int count = 0;

@@ -44,20 +44,11 @@ public:
 };
 
 
+
 // Solved by using stack
 // Time Complexity :- O(n)
 // Space Complexity :- O(n)
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
@@ -92,16 +83,6 @@ public:
 // Time Complexity :- O(n)
 // Space Complexity :- O(n)
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
 
@@ -129,21 +110,12 @@ public:
 };
 
 
+
 // Solved by using Floyd's Tortoise and Hare (Cycle Detection) Algorithm
 // Reversing the first half of the linked list
 // Time Complexity :- O(n)
 // Space Complexity :- O(1)
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
