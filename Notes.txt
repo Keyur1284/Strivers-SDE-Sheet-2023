@@ -119,4 +119,21 @@
 33. Problem Link :- https://leetcode.com/problems/reverse-nodes-in-k-group/
     Notes :- https://takeuforward.org/data-structure/reverse-linked-list-in-groups-of-size-k/
 
-34. 
+34. Problem Link :- https://leetcode.com/problems/palindrome-linked-list/
+    Notes :- https://takeuforward.org/data-structure/check-if-given-linked-list-is-plaindrome/
+
+35. Problem Link :- https://leetcode.com/problems/linked-list-cycle-ii/
+    Notes :- https://takeuforward.org/data-structure/starting-point-of-loop-in-a-linked-list/
+
+36. Problem Link :- https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1
+    Problem Link :- https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
+    Notes :- https://takeuforward.org/data-structure/flattening-a-linked-list/
+
+
+# Day 7 Linked List and arrays
+
+37. Problem Link :- https://leetcode.com/problems/rotate-list/
+    Notes :- https://takeuforward.org/data-structure/rotate-a-linked-list/
+
+38. Problem Link :- https://leetcode.com/problems/copy-list-with-random-pointer/
+    Notes :- https://takeuforward.org/data-structure/clone-linked-list-with-random-and-next-pointer/
