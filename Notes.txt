@@ -125,7 +125,7 @@
 35. Problem Link :- https://leetcode.com/problems/linked-list-cycle-ii/
     Notes :- https://takeuforward.org/data-structure/starting-point-of-loop-in-a-linked-list/
 
-36. Problem Link :- https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1
+36. Problem Link :- https://geeksforgeeks.org/problems/flattening-a-linked-list/1
     Problem Link :- https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
     Notes :- https://takeuforward.org/data-structure/flattening-a-linked-list/
 
@@ -137,3 +137,44 @@
 
 38. Problem Link :- https://leetcode.com/problems/copy-list-with-random-pointer/
     Notes :- https://takeuforward.org/data-structure/clone-linked-list-with-random-and-next-pointer/
+
+39. Problem Link :- https://leetcode.com/problems/3sum/
+    Notes :- https://takeuforward.org/data-structure/3-sum-find-triplets-that-add-up-to-a-zero/
+
+40. Problem Link :- https://leetcode.com/problems/trapping-rain-water/
+    Notes :- https://takeuforward.org/data-structure/trapping-rainwater/
+
+41. Problem Link :- https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+    Notes :- https://takeuforward.org/data-structure/remove-duplicates-in-place-from-sorted-array/
+
+42. Problem Link :- https://leetcode.com/problems/max-consecutive-ones/
+    Notes :- https://takeuforward.org/data-structure/count-maximum-consecutive-ones-in-the-array/
+
+
+# Day 8 Greedy algorithm
+
+43. Problem Link :- https://geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1
+    Notes :- https://takeuforward.org/data-structure/n-meetings-in-one-room/
+
+44. Problem Link :- https://geeksforgeeks.org/problems/minimum-platforms-1587115620/1
+    Notes :- https://takeuforward.org/data-structure/minimum-number-of-platforms-required-for-a-railway/
+
+45. Problem Link :- https://geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
+    Notes :- https://takeuforward.org/data-structure/job-sequencing-problem/
+
+46. Problem Link :- https://geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
+    Notes :- https://takeuforward.org/data-structure/fractional-knapsack-problem-greedy-approach/
+
+47. Problem Link :- https://www.codingninjas.com/codestudio/problems/975277
+    Ref Article :- https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
+    Notes :- https://takeuforward.org/data-structure/find-minimum-number-of-coins/
+
+
+# Day 9 Recursion
+
+48. Problem Link :- https://www.codingninjas.com/codestudio/problems/subset-sum_3843086
+    Problem Link :- https://www.geeksforgeeks.org/problems/subset-sums2234/1
+    Notes :- https://takeuforward.org/data-structure/subset-sum-sum-of-all-subsets/
+
+49. Problem Link :- https://leetcode.com/problems/subsets-ii/
+    Notes :- https://takeuforward.org/data-structure/subset-ii-print-all-the-unique-subsets/
