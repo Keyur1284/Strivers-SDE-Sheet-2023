@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1
+// Problem Link :- https://geeksforgeeks.org/problems/minimum-platforms-1587115620/1
 
 // Solved by using priority_queue
 // Time Complexity :- O(nlogn)
@@ -41,7 +41,7 @@ class Solution{
 // Solved by Sorting both arrival and departure time separately
 // Approach similar to merge sort
 // Time Complexity :- O(nlogn)
-// Space Complexity :- O(1)
+// Space Complexity :- O(logn)
 
 class Solution{
     public:

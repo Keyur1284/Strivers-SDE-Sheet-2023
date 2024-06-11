@@ -1,6 +1,7 @@
 // Problem Link :- https://leetcode.com/problems/3sum/
 
-// Time Complexity :- O(n^2 + nlogn)
+// Solved by sorting and using set + two pointers
+// Time Complexity :- O(n^2 * logn + nlogn)
 // Space Complexity :- O(n)
 
 class Solution {
@@ -39,6 +40,12 @@ public:
         return ans;
     }
 };
+
+
+
+// Solved by sorting and two pointers
+// Time Complexity :- O(n^2 + nlogn)
+// Space Complexity :- O(n)
 
 class Solution {
 public:

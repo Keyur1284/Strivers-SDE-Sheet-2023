@@ -1,8 +1,8 @@
 // Problem Link :- https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 // Solved using STL function
-// Time Complexity : O(n)
-// Space Complexity : O(1)
+// Time Complexity :- O(n)
+// Space Complexity :- O(1)
 
 
 class Solution {
@@ -16,6 +16,7 @@ public:
         return nums.size();
     }
 };
+
 
 
 // Time Complexity :- O(n)

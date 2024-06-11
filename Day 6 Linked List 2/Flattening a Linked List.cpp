@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1
+// Problem Link :- https://geeksforgeeks.org/problems/flattening-a-linked-list/1
 
 // Solved by Recursive Approach
 // Time Complexity :- O(n * m)  n = length along the next pointer, m = length along the bottom pointer

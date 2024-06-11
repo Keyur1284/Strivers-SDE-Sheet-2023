@@ -1,8 +1,8 @@
 // Problem Link :- https://leetcode.com/problems/trapping-rain-water/
 
 // Solved by finding prefix max and suffix max
-// Time Complexity - O(n)
-// Space Complexity - O(n)
+// Time Complexity :- O(n)
+// Space Complexity :- O(n)
 
 class Solution {
 public:
@@ -35,8 +35,39 @@ public:
 
 
 // Solved by using two pointer approach
-// Time Complexity - O(n)
-// Space Complexity - O(1)
+// Time Complexity :- O(n)
+// Space Complexity :- O(1)
+
+class Solution {
+public:
+    int trap(vector<int>& height) {
+        
+        int n = height.size();
+        int left = 0, right = n - 1, leftMax = 0, rightMax = 0, water = 0;
+
+        while (left <= right)
+        {
+            leftMax = max(leftMax, height[left]);
+            rightMax = max(rightMax, height[right]);
+
+            if (leftMax < rightMax)
+            {
+                water += (leftMax - height[left]);
+                left++;
+            }
+
+            else
+            {
+                water += (rightMax - height[right]);
+                right--;
+            }
+        }
+
+        return water;
+    }
+};
+
+
 
 class Solution {
 public:

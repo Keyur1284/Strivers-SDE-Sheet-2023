@@ -1,8 +1,8 @@
 // Problem Link :- https://leetcode.com/problems/subsets-ii/
 
 // Solved using Recursion
-// Time Complexity :- O(2^n + nlogn)
-// Space Complexity :- O(2^n)
+// Time Complexity :- O(2^n * klogm)    n = number of elements
+// Space Complexity :- O(2^n)   k = average length of ds, m = size of set
 
 class Solution {
 public:
@@ -38,6 +38,10 @@ public:
 };
 
 
+
+// Solved using Recursion
+// Time Complexity :- O(2^n)
+// Space Complexity :- O(2^n)   
 
 class Solution {
 public:
@@ -75,8 +79,9 @@ public:
 };
 
 
+
 // Solved using Bit-masking
-// Time Complexity :- O(2^n + nlogn)
+// Time Complexity :- O(2^n + 2^n * log(2^n))
 // Space Complexity :- O(2^n)
 
 class Solution {

@@ -1,7 +1,7 @@
 // Problem Link :- https://www.codingninjas.com/codestudio/problems/subset-sum_3843086
 
 // Solved by Recursion
-// Time Complexity :- O(2^n + nlogn)
+// Time Complexity :- O(2^n + 2^n * log(2^n))
 // Space Complexity :- O(2^n)
 
 #include <bits/stdc++.h> 
