@@ -1,7 +1,7 @@
 // Problem Link :- https://leetcode.com/problems/combination-sum/
 
 // Solved by Recursion
-// Time Complexity :- O(2^(target * n))
+// Time Complexity :- O(2^target * n)
 // Space Complexity :- O(n * comb)
 
 class Solution {

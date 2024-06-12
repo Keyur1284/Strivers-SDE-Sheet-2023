@@ -94,7 +94,7 @@ public:
 
     bool isSafe (int row, int col, int n, vector<bool> &leftRow, vector<bool> &upperLeftDiagonal, vector<bool> &lowerLeftDiagonal)
     {
-        return (!leftRow[row] && !lowerLeftDiagonal[row + col] && !upperLeftDiagonal[n - 1 + (row - col)]);
+        return (!leftRow[row] && !lowerLeftDiagonal[row + col] && !upperLeftDiagonal[n - 1 + (col - row)]);
     }
 
     void solve (int col, int &n, vector<string> &board, vector<vector<string>> &NQueens, vector<bool> &leftRow,vector<bool> &upperLeftDiagonal, vector<bool> &lowerLeftDiagonal)
@@ -112,14 +112,14 @@ public:
                 board[row][col] = 'Q';
                 leftRow[row] = true;
                 lowerLeftDiagonal[row + col] = true;
-                upperLeftDiagonal[n - 1 + (row - col)] = true;
+                upperLeftDiagonal[n - 1 + (col - row)] = true;
 
                 solve (col + 1, n, board, NQueens, leftRow, upperLeftDiagonal, lowerLeftDiagonal);
 
                 board[row][col] = '.';
                 leftRow[row] = false;
                 lowerLeftDiagonal[row + col] = false;
-                upperLeftDiagonal[n - 1 + (row - col)] = false;
+                upperLeftDiagonal[n - 1 + (col - row)] = false;
             }
         }
     }
