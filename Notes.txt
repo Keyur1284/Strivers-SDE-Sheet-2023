@@ -178,3 +178,28 @@
 
 49. Problem Link :- https://leetcode.com/problems/subsets-ii/
     Notes :- https://takeuforward.org/data-structure/subset-ii-print-all-the-unique-subsets/
+
+50. Problem Link :- https://leetcode.com/problems/combination-sum/
+    Notes :- https://takeuforward.org/data-structure/combination-sum-1/
+
+51. Problem Link :- https://leetcode.com/problems/combination-sum-ii/
+    Notes :- https://takeuforward.org/data-structure/combination-sum-ii-find-all-unique-combinations/
+
+52. Problem Link :- https://leetcode.com/problems/palindrome-partitioning/
+    Notes :- https://takeuforward.org/data-structure/palindrome-partitioning/
+
+53. Problem Link :- https://leetcode.com/problems/permutation-sequence/
+    Notes :- https://takeuforward.org/data-structure/find-k-th-permutation-sequence/
+
+
+# Day 10 Recursion and Backtracking
+
+54. Problem Link :- https://leetcode.com/problems/permutations/
+    Problem Link :- https://leetcode.com/problems/permutations-ii/
+    Notes :- https://takeuforward.org/data-structure/print-all-permutations-of-a-string-array/
+
+55. Problem Link :- https://leetcode.com/problems/n-queens/
+    Notes :- https://takeuforward.org/data-structure/n-queen-problem-return-all-distinct-solutions-to-the-n-queens-puzzle/
+
+56. Problem Link :- https://leetcode.com/problems/sudoku-solver/
+    Notes :- https://takeuforward.org/data-structure/sudoku-solver/
