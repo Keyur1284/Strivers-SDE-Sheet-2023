@@ -125,7 +125,7 @@
 35. Problem Link :- https://leetcode.com/problems/linked-list-cycle-ii/
     Notes :- https://takeuforward.org/data-structure/starting-point-of-loop-in-a-linked-list/
 
-36. Problem Link :- https://geeksforgeeks.org/problems/flattening-a-linked-list/1
+36. Problem Link :- https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1
     Problem Link :- https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
     Notes :- https://takeuforward.org/data-structure/flattening-a-linked-list/
 
@@ -153,16 +153,16 @@
 
 # Day 8 Greedy algorithm
 
-43. Problem Link :- https://geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1
+43. Problem Link :- https://www.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1
     Notes :- https://takeuforward.org/data-structure/n-meetings-in-one-room/
 
-44. Problem Link :- https://geeksforgeeks.org/problems/minimum-platforms-1587115620/1
+44. Problem Link :- https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1
     Notes :- https://takeuforward.org/data-structure/minimum-number-of-platforms-required-for-a-railway/
 
-45. Problem Link :- https://geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
+45. Problem Link :- https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
     Notes :- https://takeuforward.org/data-structure/job-sequencing-problem/
 
-46. Problem Link :- https://geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
+46. Problem Link :- https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
     Notes :- https://takeuforward.org/data-structure/fractional-knapsack-problem-greedy-approach/
 
 47. Problem Link :- https://www.codingninjas.com/codestudio/problems/975277
@@ -203,3 +203,61 @@
 
 56. Problem Link :- https://leetcode.com/problems/sudoku-solver/
     Notes :- https://takeuforward.org/data-structure/sudoku-solver/
+
+57. Problem Link :- https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1
+    Notes :- https://takeuforward.org/data-structure/m-coloring-problem/
+
+58. Problem Link :- https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
+    Notes :- https://takeuforward.org/data-structure/rat-in-a-maze/
+
+59. Problem Link :- https://leetcode.com/problems/word-break/
+    Problem Link :- https://leetcode.com/problems/word-break-ii/
+
+
+# Day 11 Binary Search
+
+60. Problem Link :- https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1
+    Notes :- https://takeuforward.org/data-structure/nth-root-of-a-number-using-binary-search/
+
+61. Problem Link :- https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1
+    Notes :- https://takeuforward.org/data-structure/median-of-row-wise-sorted-matrix/
+
+62. Problem Link :- https://leetcode.com/problems/single-element-in-a-sorted-array/
+    Notes :- https://takeuforward.org/data-structure/search-single-element-in-a-sorted-array/
+
+63. Problem Link :- https://leetcode.com/problems/search-in-rotated-sorted-array/
+    Problem Link :- https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+    Notes :- https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array/
+
+64. Problem Link :- https://leetcode.com/problems/median-of-two-sorted-arrays/
+    Notes :- https://takeuforward.org/data-structure/median-of-two-sorted-arrays-of-different-sizes/
+
+65. Problem Link :- https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1
+    Notes :- https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/
+
+66. Problem Link :- https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
+    Notes :- https://takeuforward.org/data-structure/allocate-minimum-number-of-pages/
+
+67. Problem Link :- https://www.geeksforgeeks.org/problems/aggressive-cows/0
+    Notes :- https://takeuforward.org/data-structure/aggressive-cows-detailed-solution/
+
+
+# Day 12 Heaps
+
+68. Problem Link :- https://leetcode.com/problems/kth-largest-element-in-an-array/
+    Notes :- https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+69. Problem Link :- https://www.codingninjas.com/codestudio/problems/k-max-sum-combinations_975322
+
+70. Problem Link :- https://leetcode.com/problems/find-median-from-data-stream/
+
+71. Problem Link :- https://www.geeksforgeeks.org/problems/merge-k-sorted-arrays/1
+
+72. Problem Link :- https://leetcode.com/problems/top-k-frequent-elements/
+
+
+# Day 13 Stack and Queues 1
+
+73. Problem Link :- https://www.geeksforgeeks.org/problems/implement-stack-using-array/1
+    Problem Link :- https://leetcode.com/problems/implement-stack-using-queues/
+    Notes :- https://takeuforward.org/data-structure/implement-stack-using-array/
