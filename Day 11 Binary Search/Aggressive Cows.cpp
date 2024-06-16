@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/aggressive-cows/0
+// Problem Link :- https://www.geeksforgeeks.org/problems/aggressive-cows/0
 
 // Solved by Binary Search
 // Time Complexity :- O(n * log(1e9))

@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
 
 // Solved by Binary Search
 // Time Complexity = O(NlogN)

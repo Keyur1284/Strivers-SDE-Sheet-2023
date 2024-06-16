@@ -2,7 +2,7 @@
 
 // Solved by Binary Search
 // Worst Case Time Complexity :- O(n)
-// Average Time Complexity : O(log_2 n)
+// Average Time Complexity : O(logn)
 // Space Complexity :- O(1)
 
 class Solution {

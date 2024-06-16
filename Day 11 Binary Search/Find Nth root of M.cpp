@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/find-nth-root-of-m5843/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1
 
 // Solved by Binary Search
 // Time Complexity :- O(nlogm)

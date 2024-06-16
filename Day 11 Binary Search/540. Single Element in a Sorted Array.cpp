@@ -1,7 +1,7 @@
 // Problem Link :- https://leetcode.com/problems/single-element-in-a-sorted-array/
 
 // Solved by Binary Search
-// Time Complexity :- O(log_2 n)
+// Time Complexity :- O(logn)
 // Space Complexity :- O(1)
 
 class Solution {

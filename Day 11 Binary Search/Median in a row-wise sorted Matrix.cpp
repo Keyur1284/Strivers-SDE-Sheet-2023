@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1
 
 // Solved by Binary Search
 // Time Complexity :- O(32 * R * logC)

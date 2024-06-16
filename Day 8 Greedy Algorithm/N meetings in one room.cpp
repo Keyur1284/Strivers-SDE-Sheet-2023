@@ -1,4 +1,4 @@
-// Problem Link :- https://geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1
 
 // Solved by sorting (w.r.t start time) and iterating from the back
 // Time Complexity :- O(nlogn)

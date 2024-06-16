@@ -1,4 +1,4 @@
-// Problem Link :- https://geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
 
 // Solved by sorting value/weight ratio in descending order
 // Time Complexity :- O(nlogn)

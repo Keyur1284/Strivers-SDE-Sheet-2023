@@ -1,4 +1,4 @@
-// Problem Link :- https://geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
 
 // Solved by greedy approach (sorting in descending order based on profit)
 // Time Complexity = O(nlogn + n^2)

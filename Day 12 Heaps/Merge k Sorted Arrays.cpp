@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/merge-k-sorted-arrays/1
 
 // Solved using priority_queue
 // Time Complexity :- O(nlogn)

@@ -1,4 +1,4 @@
-// Problem Link :- https://geeksforgeeks.org/problems/minimum-platforms-1587115620/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1
 
 // Solved by using priority_queue
 // Time Complexity :- O(nlogn)

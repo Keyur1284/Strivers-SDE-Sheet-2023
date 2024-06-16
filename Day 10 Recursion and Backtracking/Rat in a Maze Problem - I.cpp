@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
 
 // Solved by Back-tracking
 // Time Complexity :- O(3^(n^2))

@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1
 
 // Solved by Two Pointers Approach
 // Time Complexity :- O(n + m)
