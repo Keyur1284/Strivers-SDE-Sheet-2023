@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/smallest-number-on-left3403/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1
 
 // Solved using stack
 // Time Complexity :- O(n)

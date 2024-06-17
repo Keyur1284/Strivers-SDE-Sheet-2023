@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/sort-a-stack/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/sort-a-stack/1
 
 // Solved by Recursion
 // Time Complexity :- O(n^2)
