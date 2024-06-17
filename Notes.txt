@@ -259,5 +259,32 @@
 # Day 13 Stack and Queues 1
 
 73. Problem Link :- https://www.geeksforgeeks.org/problems/implement-stack-using-array/1
-    Problem Link :- https://leetcode.com/problems/implement-stack-using-queues/
     Notes :- https://takeuforward.org/data-structure/implement-stack-using-array/
+
+74. Problem Link :- https://www.geeksforgeeks.org/problems/implement-queue-using-array/1
+    Notes :- https://takeuforward.org/data-structure/implement-queue-using-array/
+
+75. Problem Link :- https://leetcode.com/problems/implement-stack-using-queues/
+    Notes :- https://takeuforward.org/data-structure/implement-stack-using-single-queue/
+
+76. Problem Link :- https://leetcode.com/problems/implement-queue-using-stacks/
+    Notes :- https://takeuforward.org/data-structure/implement-queue-using-stack/
+
+77. Problem Link :- https://leetcode.com/problems/valid-parentheses/
+    Notes :- https://takeuforward.org/data-structure/check-for-balanced-parentheses/
+
+78. Problem Link :- https://leetcode.com/problems/next-greater-element-i/
+    Problem Link :- https://leetcode.com/problems/next-greater-element-ii/
+    Notes :- https://takeuforward.org/data-structure/next-greater-element-using-stack/
+
+79. Problem Link :- https://www.geeksforgeeks.org/problems/sort-a-stack/1
+    
+
+# Day 14 Stack and Queues 2
+
+80. Problem Link :- https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1
+
+81. Problem Link :- https://leetcode.com/problems/lru-cache/
+    Notes :- https://takeuforward.org/data-structure/implement-lru-cache/
+
+82. Problem Link :- https://leetcode.com/problems/lfu-cache/
