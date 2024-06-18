@@ -288,3 +288,39 @@
     Notes :- https://takeuforward.org/data-structure/implement-lru-cache/
 
 82. Problem Link :- https://leetcode.com/problems/lfu-cache/
+
+83. Problem Link :- https://leetcode.com/problems/largest-rectangle-in-histogram/
+    Notes :- https://takeuforward.org/data-structure/area-of-largest-rectangle-in-histogram/
+
+84. Problem Link :- https://leetcode.com/problems/sliding-window-maximum/
+    Notes :- https://takeuforward.org/data-structure/sliding-window-maximum/
+
+85. Problem Link :- https://leetcode.com/problems/min-stack/
+    Notes :- https://takeuforward.org/data-structure/implement-min-stack-o2n-and-on-space-complexity/
+
+86. Problem Link :- https://leetcode.com/problems/rotting-oranges/
+    Notes :- https://takeuforward.org/data-structure/rotten-oranges-min-time-to-rot-all-oranges-bfs/
+
+87. Problem Link :- https://leetcode.com/problems/online-stock-span/
+
+88. Problem Link :- https://www.geeksforgeeks.org/problems/maximum-of-minimum-for-every-window-size3453/1
+
+89. Problem Link :- https://www.geeksforgeeks.org/problems/the-celebrity-problem/1
+
+
+# Day 15 String 1
+
+90. Problem Link :- https://leetcode.com/problems/reverse-words-in-a-string/
+    Notes :- https://takeuforward.org/data-structure/reverse-words-in-a-string/
+
+91. Problem Link :- https://leetcode.com/problems/longest-palindromic-substring/
+
+92. Problem Link :- https://leetcode.com/problems/integer-to-roman/
+    Problem Link :- https://leetcode.com/problems/roman-to-integer/
+
+93. Problem Link :- https://leetcode.com/problems/string-to-integer-atoi/
+    Problem Link :- https://www.geeksforgeeks.org/problems/implement-strstr/1
+
+94. Problem Link :- https://leetcode.com/problems/longest-common-prefix/
+
+95. Problem Link :- https://leetcode.com/problems/repeated-string-match/
