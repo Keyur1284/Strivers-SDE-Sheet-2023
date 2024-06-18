@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/the-celebrity-problem/1
 
 // Solve by brute force approach
 // Time Complexity :- O(n^2)
