@@ -324,3 +324,186 @@
 94. Problem Link :- https://leetcode.com/problems/longest-common-prefix/
 
 95. Problem Link :- https://leetcode.com/problems/repeated-string-match/
+
+
+# Day 16 String 2
+
+96. Problem Link :- https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+
+97. Problem Link :- https://www.geeksforgeeks.org/problems/search-pattern-z-algorithm--141631/1
+
+98. Problem Link :- https://www.geeksforgeeks.org/problems/minimum-characters-to-be-added-at-front-to-make-string-palindrome/1
+
+99. Problem Link :- https://leetcode.com/problems/valid-anagram/
+
+100. Problem Link :- Problem Link :- https://leetcode.com/problems/count-and-say/
+
+101. Problem Link :- https://leetcode.com/problems/compare-version-numbers/
+
+
+# Day 17 Binary Tree
+
+102. Problem Link :- https://leetcode.com/problems/binary-tree-inorder-traversal/
+     Notes :- https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/
+     Notes :- https://takeuforward.org/data-structure/morris-inorder-traversal-of-a-binary-tree/
+
+103. Problem Link :- https://leetcode.com/problems/binary-tree-preorder-traversal/
+     Notes :- https://takeuforward.org/data-structure/preorder-traversal-of-binary-tree/
+     Notes :- https://takeuforward.org/data-structure/morris-preorder-traversal-of-a-binary-tree/
+
+104. Problem Link :- https://leetcode.com/problems/binary-tree-postorder-traversal/
+     Notes :- https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/
+
+105. Problem Link :- https://www.codingninjas.com/codestudio/problems/left-view-of-binary-tree_625707
+     Problem Link :- https://leetcode.com/problems/binary-tree-right-side-view/
+     Notes :- https://takeuforward.org/data-structure/right-left-view-of-binary-tree/
+
+106. Problem Link :- https://www.codingninjas.com/codestudio/problems/bottom-view-of-binary-tree_893110
+     Notes :- https://takeuforward.org/data-structure/bottom-view-of-a-binary-tree/
+
+107. Problem Link :- https://www.codingninjas.com/codestudio/problems/top-view-of-the-tree_799401
+     Notes :- https://takeuforward.org/data-structure/top-view-of-a-binary-tree/
+
+108. Notes :- https://takeuforward.org/data-structure/preorder-inorder-postorder-traversals-in-one-traversal/
+
+109. Problem Link :- https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
+     Notes :- https://takeuforward.org/data-structure/vertical-order-traversal-of-binary-tree/
+
+110. Problem Link :- https://www.interviewbit.com/problems/path-to-given-node/
+     Notes :- https://takeuforward.org/data-structure/print-root-to-node-path-in-a-binary-tree/
+
+111. Problem Link :- https://leetcode.com/problems/maximum-width-of-binary-tree/
+     Notes :- https://takeuforward.org/data-structure/maximum-width-of-a-binary-tree/
+
+
+# Day 18 Binary Tree 2
+
+112. Problem Link :- https://leetcode.com/problems/binary-tree-level-order-traversal/
+     Notes :- https://takeuforward.org/data-structure/level-order-traversal-of-a-binary-tree/
+
+113. Problem Link :- https://leetcode.com/problems/maximum-depth-of-binary-tree/
+     Notes :- https://takeuforward.org/data-structure/maximum-depth-of-a-binary-tree/
+
+114. Problem Link :- https://leetcode.com/problems/diameter-of-binary-tree/
+     Notes :- https://takeuforward.org/data-structure/calculate-the-diameter-of-a-binary-tree/
+
+115. Problem Link :- https://leetcode.com/problems/balanced-binary-tree/
+     Notes :- https://takeuforward.org/data-structure/check-if-the-binary-tree-is-balanced-binary-tree/
+
+116. Problem Link :- https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+     Notes :- https://takeuforward.org/data-structure/lowest-common-ancestor-for-two-given-nodes/
+
+117. Problem Link :- https://leetcode.com/problems/same-tree/
+     Notes :- https://takeuforward.org/data-structure/check-if-two-trees-are-identical/
+
+118. Problem Link :- https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+     Notes :- https://takeuforward.org/data-structure/zig-zag-traversal-of-binary-tree/
+
+119. Problem Link :- https://www.codingninjas.com/codestudio/problems/boundary-traversal_790725
+     Notes :- https://takeuforward.org/data-structure/boundary-traversal-of-a-binary-tree/
+
+
+# Day 19 Binary Tree 3
+
+120. Problem Link :- https://leetcode.com/problems/binary-tree-maximum-path-sum/    
+     Notes :- https://takeuforward.org/data-structure/maximum-sum-path-in-binary-tree/
+
+121. Problem Link :- https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+     Notes :- https://takeuforward.org/data-structure/construct-a-binary-tree-from-inorder-and-preorder-traversal/
+
+122. Problem Link :- https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+
+123. Problem Link :- https://leetcode.com/problems/symmetric-tree/
+     Notes :- https://takeuforward.org/data-structure/check-for-symmetrical-binary-tree/
+
+124. Problem Link :- https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+     Notes :- https://takeuforward.org/data-structure/flatten-binary-tree-to-linked-list/
+
+125. Problem Link :- https://www.geeksforgeeks.org/problems/mirror-tree/1
+
+126. Problem Link :- https://www.geeksforgeeks.org/problems/children-sum-parent/1
+     Problem Link :- https://www.codingninjas.com/codestudio/problems/childrensumproperty_790723
+     
+
+# Day 20 Binary Search Tree
+
+127. Problem Link :- https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+
+128. Problem Link :- https://leetcode.com/problems/search-in-a-binary-search-tree/
+
+129. Problem Link :- https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+
+130. Problem Link :- https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
+
+131. Problem Link :- https://leetcode.com/problems/validate-binary-search-tree/
+
+132. Problem Link :- https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
+133. Problem Link :- https://www.geeksforgeeks.org/problems/predecessor-and-successor/1
+
+
+# Day 21 Binary Search Tree 2
+
+134. Problem Link :- https://www.codingninjas.com/codestudio/problems/floor-from-bst_920457
+
+135. Problem Link :- https://www.geeksforgeeks.org/problems/implementing-ceil-in-bst/1
+
+136. Problem Link :- https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+     Notes :- https://takeuforward.org/data-structure/kth-largest-smallest-element-in-binary-search-tree/
+
+137. Problem Link :- https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+
+138. Problem Link :- https://leetcode.com/problems/binary-search-tree-iterator/
+
+139. Problem Link :- https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/
+     Problem Link :- https://www.geeksforgeeks.org/problems/largest-bst/1
+
+140. Problem Link :- https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+     Notes :- https://takeuforward.org/data-structure/serialize-and-deserialize-a-binary-tree/
+
+
+# Day 22 Binary Trees (Miscellaneous)
+
+141. Problem Link :- https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+     Notes :- https://takeuforward.org/data-structure/flatten-binary-tree-to-linked-list/
+
+142. Problem Link :- https://leetcode.com/problems/find-median-from-data-stream/
+
+143. Problem Link :- https://leetcode.com/problems/kth-largest-element-in-a-stream/
+
+144. Problem Link :- https://www.codingninjas.com/studio/problems/920336
+
+145. Problem Link :- https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+146. Problem Link :- https://leetcode.com/problems/flood-fill/
+
+
+# Day 23 Graph 
+
+147. Problem Link :- https://leetcode.com/problems/clone-graph/
+
+148. Problem Link :- https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
+     Notes :- https://takeuforward.org/data-structure/depth-first-search-dfs/
+
+149. Problem Link :- https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
+     Notes :- https://takeuforward.org/graph/breadth-first-search-bfs-level-order-traversal/
+
+150. Problem Link :- https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
+     Notes :- https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/
+     Notes :- https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-dfs/
+
+151. Problem Link :- https://leetcode.com/problems/course-schedule/
+     Problem Link :- https://leetcode.com/problems/course-schedule-ii/
+     Notes :- https://takeuforward.org/data-structure/detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
+
+152. Problem Link :- https://www.geeksforgeeks.org/problems/topological-sort/1
+     Notes :- https://takeuforward.org/data-structure/topological-sort-bfs/
+     Notes :- https://takeuforward.org/data-structure/topological-sort-using-dfs/
+
+153. Problem Link :- https://leetcode.com/problems/number-of-islands/
+     Problem Link :- https://www.geeksforgeeks.org/problems/number-of-distinct-islands/1
+     Problem Link :- https://www.geeksforgeeks.org/problems/number-of-islands/1
+     Notes :- https://takeuforward.org/data-structure/number-of-distinct-islands/
+
+154. Problem Link :- https://www.geeksforgeeks.org/problems/bipartite-graph/1
+     Notes :- https://takeuforward.org/graph/bipartite-graph-dfs-implementation/
