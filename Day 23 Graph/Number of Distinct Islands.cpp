@@ -1,4 +1,4 @@
-//Problem Link :- https://practice.geeksforgeeks.org/problems/number-of-distinct-islands/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/number-of-distinct-islands/1
 
 // Solved by DFS
 // Time Complexity :- O(n * m * log(n * m))

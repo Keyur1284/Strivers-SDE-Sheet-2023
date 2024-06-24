@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/number-of-islands/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/number-of-islands/1
 
 // Solved by Union Find
 // Time Complexity :- O(4 * alpha * Q)

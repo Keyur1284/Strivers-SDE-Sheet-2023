@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/children-sum-parent/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/children-sum-parent/1
 
 // Time Complexity :- O(N)
 // Space Complexity :- O(logN)

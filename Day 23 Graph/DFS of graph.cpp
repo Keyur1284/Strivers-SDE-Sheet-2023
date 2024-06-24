@@ -1,4 +1,4 @@
-//Problem Link :- https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
 
 // Time Complexity :- O(n)
 // Space Complexity :- O(n)

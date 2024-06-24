@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/implementing-ceil-in-bst/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/implementing-ceil-in-bst/1
 
 // Solved by Iterative Approach
 // Time Complexity :- O(log_2 N)

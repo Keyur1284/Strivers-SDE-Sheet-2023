@@ -1,8 +1,8 @@
 // Problem Link :- https://leetcode.com/problems/valid-anagram/
 
 // Solved by Sorting
-// Time Complexity :- O(n)
-// Space Complexity :- O(1)
+// Time Complexity :- O(nlogn)
+// Space Complexity :- O(logn)
 
 class Solution {
 public:

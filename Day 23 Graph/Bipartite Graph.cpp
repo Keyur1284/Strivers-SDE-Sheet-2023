@@ -1,4 +1,4 @@
-//Problem Link :- https://practice.geeksforgeeks.org/problems/bipartite-graph/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/bipartite-graph/1
 
 // Solved by DFS
 // Time Complexity :- O(E + V)

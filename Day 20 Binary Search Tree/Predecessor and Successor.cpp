@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/predecessor-and-successor/1
 
 // Solved by Recursive Approach
 // Time Complexity :- O(h) where h is the height of the tree

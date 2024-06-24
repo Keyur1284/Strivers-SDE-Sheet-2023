@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/largest-bst/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/largest-bst/1
 
 // Solved by Recursive Approach
 // Time Complexity :- O(n^2)

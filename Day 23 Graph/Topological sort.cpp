@@ -1,4 +1,4 @@
-//Problem Link :- https://practice.geeksforgeeks.org/problems/topological-sort/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/topological-sort/1
 
 //Topological sort is valid only for directed acyclic graphs
 //Definition : Linear ordering of vertices such that if there is an edge u -> v then u appears before v in that ordering

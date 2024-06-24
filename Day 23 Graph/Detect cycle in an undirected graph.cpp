@@ -1,4 +1,4 @@
-//Problem Link :- https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
 
 
 //Solved by BFS
