@@ -507,3 +507,45 @@
 
 154. Problem Link :- https://www.geeksforgeeks.org/problems/bipartite-graph/1
      Notes :- https://takeuforward.org/graph/bipartite-graph-dfs-implementation/
+
+
+# Day 24 Graph 2
+
+155. Problem Link :- https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
+     Notes :- https://takeuforward.org/graph/strongly-connected-components-kosarajus-algorithm-g-54/
+
+156. Problem Link :- https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
+     Notes :- https://takeuforward.org/data-structure/g-35-print-shortest-path-dijkstras-algorithm/
+
+157. Problem Link :- https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1
+     Notes :- https://takeuforward.org/data-structure/bellman-ford-algorithm-g-41/
+
+158. Problem Link :- https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1
+     Notes :- https://takeuforward.org/data-structure/floyd-warshall-algorithm-g-42/
+
+159. Problem Link :- https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1
+     Notes :- https://takeuforward.org/data-structure/prims-algorithm-minimum-spanning-tree-c-and-java-g-45/
+     Notes :- https://takeuforward.org/data-structure/kruskals-algorithm-minimum-spanning-tree-g-47/
+
+
+# Day 25 Dynamic Programming
+
+160. Problem Link :- https://leetcode.com/problems/maximum-product-subarray/
+     Notes :- https://takeuforward.org/data-structure/maximum-product-subarray-in-an-array/
+
+161. Problem Link :- https://leetcode.com/problems/longest-increasing-subsequence/
+     Notes :- https://takeuforward.org/data-structure/longest-increasing-subsequence-dp-41/
+
+162. Problem Link :- https://leetcode.com/problems/longest-common-subsequence/
+     Notes :- https://takeuforward.org/data-structure/longest-common-subsequence-dp-25/
+
+163. Problem Link :- https://www.codingninjas.com/codestudio/problems/0-1-knapsack_920542
+     Notes :- https://takeuforward.org/data-structure/0-1-knapsack-dp-19/
+
+164. Problem Link :- https://leetcode.com/problems/edit-distance/
+     Notes :- https://takeuforward.org/data-structure/edit-distance-dp-33/
+
+165. Problem Link :- https://www.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence4749/1
+
+166. Problem Link :- https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1
+     Notes :- https://takeuforward.org/dynamic-programming/matrix-chain-multiplication-dp-48/
