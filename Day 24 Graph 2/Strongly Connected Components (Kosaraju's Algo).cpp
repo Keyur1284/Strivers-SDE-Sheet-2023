@@ -1,10 +1,10 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
 
 // Solved by Kosaraju's Algorithm
 // Time Complexity :- O(E + V)
 // Space Complexity :- O(E + V)
 
-//This algorithm is for finding the different strongly connected components of the given graph
+// This algorithm is for finding the different strongly connected components of the given graph
 // Strongly Connected Components (SCC) are only valid for directed graph
 
 // Algorithm:

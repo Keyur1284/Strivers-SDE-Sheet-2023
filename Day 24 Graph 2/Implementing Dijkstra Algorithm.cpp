@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
 
 // Time Complexity :- O(ElogV)      E = no. of edges, V = no. of vertices  (E = V^2) {Worst Case}
 // Space Complexity :- O(E + V)

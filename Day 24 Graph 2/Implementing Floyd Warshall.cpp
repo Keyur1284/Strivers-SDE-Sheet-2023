@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1
 
 // Multi-Source shortest path algorithm
 // Helps to detect negative cycle

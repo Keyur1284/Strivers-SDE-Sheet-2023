@@ -1,4 +1,4 @@
-//Problem Link :- https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1
 
 // Solved by Memoization Method
 // Time Complexity :- O(n^3)

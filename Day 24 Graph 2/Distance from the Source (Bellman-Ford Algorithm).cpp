@@ -1,4 +1,4 @@
-// Problem Link :- https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1
+// Problem Link :- https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1
 
 // It is used to detect negative cycle in a graph.
 // It works only when we are given directed graph.
